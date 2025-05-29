@@ -1,0 +1,35 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+# source 'https://cdn.jsdelivr.net/gh/CocoaPods/Specs@main'
+#source 'https://code.videolan.org/videolan/VLCKit.git'
+#source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://cdn.cocoapods.org'
+
+
+platform :ios, '13.0'
+use_frameworks!
+target 'STA' do
+  pod 'AFNetworking'
+  pod 'MBProgressHUD'
+  pod 'YYModel'
+  pod 'IQKeyboardManager'
+  pod 'ReactiveObjC'
+  pod 'SDWebImage'
+  pod 'YYImage'
+  pod 'MJRefresh'
+  
+  #pod 'LBXScan', '~> 2.5'
+  # pod 'LBXScan'
+  #:git => 'git@github.com:MxABC/LBXScan.git'
+  
+  #pod 'LBXScan', '~> 2.5'
+  #pod 'LBXScan/LBXZXing','~> 2.5'
+  #pod 'LBXScan/UI','~> 2.5'
+  pod 'LBXScan/LBXZXing','~> 2.5'
+  pod 'LBXScan/UI','~> 2.5'
+#  pod 'MobileVLCKit'
+#  pod 'MobileVLCKit', :http => 'https://download.videolan.org/cocoapods/unstable/VLCKit-4.0.0a11-7e0c08ff-1cdaca9e.tar.xz'
+
+  pod 'VLCKit', '4.0.0a11'
+
+  
+end
